@@ -43,7 +43,7 @@ export function Contact() {
         try {
 
             const response = await fetch(
-                "http://localhost:5000/api/contact",
+                "https://personal-portfolio-wx8d.onrender.com",/*http://localhost:5000/api/contact*/
                 {
                     method: "POST",
 

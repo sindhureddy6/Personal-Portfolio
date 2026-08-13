@@ -62,7 +62,7 @@ export function Projects() {
 
     useEffect(() => {
 
-        fetch("http://localhost:5000/api/projects")
+        fetch(" https://personal-portfolio-wx8d.onrender.com")/* http://localhost:5000/api/projects*/
             .then((response) => response.json())
             .then((data) => {
                 setProjects(data);
