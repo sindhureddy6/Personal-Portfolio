@@ -1,0 +1,145 @@
+/* ================================
+   TECH STACK SECTION
+================================ */
+
+.skills-section {
+  background-color: #ede3d2;
+  color: #000;
+
+  padding: 120px 6%;
+}
+
+
+/* ================================
+   SECTION TITLE
+================================ */
+
+.skills-title h1 {
+  margin: 0 0 100px;
+
+  font-size:60px;
+
+  font-weight: 800;
+
+  line-height: 0.9;
+
+  letter-spacing: -4px;
+}
+
+
+/* ================================
+   SKILL CATEGORY
+================================ */
+
+.skills-category {
+    width: 100%;
+  max-width: 1000px;
+
+  /*margin: 0 auto 140px;*/
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 60px;
+}
+
+.skills-category h2 {
+  margin: 0 0 35px 0;
+
+  font-size: 28px;
+
+  font-weight: 700;
+
+  letter-spacing: 2px;
+  color: #6b6258 !important;
+}
+
+
+/* ================================
+   SKILL GRID
+================================ */
+
+.skill-grid {
+  display: grid;
+
+  grid-template-columns: repeat(2, 1fr);
+
+  gap: 15px;
+}
+
+
+/* ================================
+   SKILL CARD
+================================ */
+
+.skill-card {
+  border: 1px solid #000;
+  
+  padding: 25px 30px;
+
+  min-height: 80px;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  font-size: 22px;
+
+  font-weight: 600;
+
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease,
+    transform 0.3s ease;
+}
+
+
+/* ================================
+   HOVER
+================================ */
+
+.skill-card:hover {
+  background-color: #8a8175;
+
+  color: #fff;
+
+  transform: translateY(-4px);
+}
+
+
+/* ================================
+   MOBILE
+================================ */
+
+@media (max-width: 768px) {
+
+  .skills-section {
+    padding: 80px 6%;
+  }
+
+  .skills-title h1 {
+    margin-bottom: 70px;
+
+    letter-spacing: -2px;
+  }
+
+  .skill-category {
+    margin-bottom: 70px;
+  }
+
+  .skill-category h2 {
+    font-size: 22px;
+
+    margin-bottom: 25px;
+  }
+
+  .skill-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .skill-card {
+    min-height: 70px;
+
+    font-size: 19px;
+  }
+}
