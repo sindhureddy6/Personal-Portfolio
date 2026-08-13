@@ -102,7 +102,7 @@ export function Projects() {
 
                         <div className="project-links">
                             <a
-                                href={project.github}
+                                href={project.github_link}
                                 target="_blank"
                                 rel="noreferrer"
                             >
